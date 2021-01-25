@@ -1,0 +1,108 @@
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.container{
+    margin: auto;
+    padding: 80px 50px;
+    width: 300px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+
+div#name{
+    font-size:70px;
+    margin: 50px;
+}
+div#title{
+    font-size: 25px;
+}
+
+
+
+div.in{
+    margin: 50px 0px;
+
+}
+
+.label{
+    float: right;
+    margin-right: 65px;
+}
+
+input[type=text], [type=password]{
+    background: transparent;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+
+input[type=text], [type=password]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+
+.in i{
+    padding: 5px;
+    position: absolute; 
+
+} 
+
+.in label{
+    padding: 5px;
+    position: absolute;
+}
+  
+
+button{
+    font-size: 20px;
+    color: white;
+    background-color:#008aca;
+    height: 60px;
+    width:100%;
+    border-radius: 5px;
+    border: none
+}
+button:hover{
+    background-color: #016283;
+    border: none
+}
+button:active{
+    background-color: rgb(0, 2, 107);
+    border: none
+}
+
+
+.footer{
+    margin: 7px 0;
+    font-size: 70%;
+}
+.footer div.remember{
+    float: right;
+}
+.footer div.forget{
+    float: left;
+    margin-top: 7px;
+}
+.footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
